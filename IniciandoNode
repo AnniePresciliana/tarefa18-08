@@ -1,0 +1,5 @@
+var http = required ('http'); 
+// cria a variavel http  que vai requisitar o modulo http
+
+var server = http.createServer(function(request, response){
+// cria a variavel server
