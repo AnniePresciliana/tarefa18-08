@@ -34,3 +34,48 @@ O Node utiliza o que é chamado de modelo de programação direcionado a eventos
 
 
 
+// these modules need to be imported in order to use them.
+// Node has several modules.  They are like any #include
+// or import statement in other languages
+var http = require("http");
+var url = require("url");
+
+
+ESTES MODULOS precisam ser importador na ordem que vao ser usados 
+o node tem diversos modulos , eles são como qualquer include 
+ou import (de estado)nas outras linguagens 
+ var http = require("http");
+ var url = require ("url");
+ 
+ 
+ 
+ 
+ // The most important line in any Node file.  This function
+// does the actual process of creating the server.  Technically,
+// Node tells the underlying operating system that whenever a
+// connection is made,
+
+A linha mais importante de qualquer arquivo NOde .Esta função 
+faz a atual processo criação  do servidor.
+Tecnicamente ,  o Node diz ao sistema operacional abaixo sempre que uma conexão é feita 
+
+this particular callback function should be
+// executed.  Since we're creating a web service with REST API,
+// we want an HTTP server, which requires the http variable
+// we created in the lines above.
+
+Este particular callback function poderia ser executada .
+Desde que estamos criando um serviço com REST api , 
+nos queremos um SERVIDOR Http, com requisições que criamos nas linhas anteriores.
+
+
+// Finally, you can see that the callback method receives a 'request'
+// and 'response' object automatically.  This should be familiar
+// to any PHP or Java programmer.
+
+http.createServer(function(request, response)
+Finalmente , nos podemos ver que o callback metodo recebe uma REQUISIÇÃO 
+e uma  resposta do objeto automaticmente.
+
+
+
