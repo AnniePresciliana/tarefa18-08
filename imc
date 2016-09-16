@@ -1,0 +1,23 @@
+function pegarAltura(){
+
+var altura = pegaraltura();
+var peso = pegarpeso()
+
+
+
+function pegarAltura(){
+    process.argv[2];
+    return altura;
+}
+
+
+function pegarPeso() {
+   ;
+  
+  return peso;
+}
+
+
+function mostrarIMC{
+    console.log("")
+}
